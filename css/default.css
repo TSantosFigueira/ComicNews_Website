@@ -1,0 +1,117 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FFF
+}
+
+/* Configuração do header */
+
+header{
+    width: 100%;
+    height: 144px;
+    float: left;
+    background-color: #ececec
+}
+
+header #topo{
+    width: 1120px;
+    height: 144px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 369px;
+    height: 82px;
+    float: left;
+    margin-top: 30px;
+}
+
+#topo-right{
+    width: 455px;
+    height: 144px;
+    float: right;
+}
+
+#topo-right p{
+    width: 455px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Times New Roman;
+    color: #555555;
+    font-size: 14px;
+    text-align: right;
+}
+
+#topo-right #adicionarNoticia{
+    margin-top: 70px;
+}
+
+/* Parte final da pagina */
+
+footer{
+    width: 160%;
+    height: auto;
+    float: left;
+}
+
+#center-ft{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+/* Tiles de informações */
+
+#titulo{
+    font-weight: bold;
+}
+
+table{
+    margin-left: 150px;
+    width:5%;
+    height: 100%;
+}
+
+
+#janelaTituloFrente{
+    background-color: #8796B8;
+    margin: 10px 10px 10px 10px;
+    float: right;
+    width: 300px;
+    height: 300px; 
+}
+
+#janelaTituloFundo{
+    margin: 10px 10px 10px 10px;
+    float: right;
+    width: 300px;
+    height: 300px; 
+}
+
+#janelaTituloFrente p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    max-height: 10%;
+    width: 280px; 
+    
+    text-align: justify;
+}
+
+.janelaTituloFundo img{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.format{
+    width:300px;
+    display:inline-block;
+}
